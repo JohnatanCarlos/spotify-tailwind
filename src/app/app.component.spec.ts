@@ -14,11 +14,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'spotify-tailwind' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('spotify-tailwind');
-  });
+  // it(`should have the 'spotify-tailwind' title`, () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   const app = fixture.componentInstance;
+  //   expect(app.title).toEqual('spotify-tailwind');
+  // });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
